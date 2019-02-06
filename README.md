@@ -41,7 +41,6 @@ azt
 azo
 7 words found
 ```
-```
 For a set of characters, for example : "ywz", and 2 blanks, run the below command
 ```
 wordFinder('yz',2)
