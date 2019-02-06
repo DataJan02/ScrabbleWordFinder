@@ -41,6 +41,4 @@ def checkAllPermutations(scrabble_str):
 
 
 count = 0
-with warnings.catch_warnings():
-    warnings.simplefilter("ignore")
-    wordFinder('able', 0)
+wordFinder('able', 0)
