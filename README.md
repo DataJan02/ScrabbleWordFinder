@@ -50,6 +50,6 @@ wordFinder('yz',2)
 woozy
 1 words found
 ```
-Issues : 
+### Issues : 
 1. Deprecation warnings to be suppressed.
 2. Repetitions in the result set.
