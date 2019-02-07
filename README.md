@@ -52,7 +52,7 @@ woozy
 ```
 For a set of characters, for example : "was", ending with y, run the below command
 ```
-find_all_words('yz',0,suffix="s")
+find_all_words('was',0,suffix="y")
 ```
 #### Output
 ```
