@@ -16,7 +16,7 @@ Select wordnet and download from the GUI
 
 For a set of characters, for example : "able", and no blanks, run the below command
 ```
-wordFinder('able')
+find_all_words('able')
 ```
 #### Output
 ```
@@ -28,7 +28,7 @@ blae
 ```
 For a set of characters, for example : "za", and 1 blank, run the below command
 ```
-wordFinder('za',1)
+find_all_words('za',1)
 ```
 #### Output
 ```
@@ -43,11 +43,33 @@ azo
 ```
 For a set of characters, for example : "ywz", and 2 blanks, run the below command
 ```
-wordFinder('yz',2)
+find_all_words('yz',2)
 ```
 #### Output
 ```
 woozy
+1 words found
+```
+For a set of characters, for example : "was", ending with y, run the below command
+```
+find_all_words('yz',0,suffix="s")
+```
+#### Output
+```
+wy
+way
+say
+sway
+4 words found
+```
+For a set of characters, for example : "slwas", starting with "a"
+, ending with "h" and having a minimum of 3 characters from your rack, run the below command
+```
+find_all_words("slwas", blanks=0, prefix="a", suffix="h", min_chars=3)
+```
+#### Output
+```
+awash
 1 words found
 ```
 ### Issues : 
